@@ -1,0 +1,12 @@
+<% layout('../layouts/application') -%>
+
+<%- imageTag('kodama.jpg') %>
+
+<h3>Pages Index</h3>
+<ul>
+    <% _.each(greetings, function (greeting) { %>
+        <% include partials/greeting %>
+    <% }); %>
+</ul>
+
+<div class='dynamic-content'></div>

@@ -1,0 +1,24 @@
+{
+    "css_files": [
+        "vendor/reset.css",
+        "init.scss"
+    ],
+
+    "js_files": [
+        "ext/javascript.js",
+        "vendor/jquery.js",
+        "vendor/json2.js",
+        "vendor/underscore.js",
+        "vendor/backbone.js",
+        "ext/backbone.js",
+        "lib",
+        "system/jst.js",
+        "models",
+        "collections",
+        "views",
+        "templates",
+        "helpers",
+        "router.js",
+        "init.js"
+    ]
+}

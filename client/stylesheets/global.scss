@@ -1,0 +1,15 @@
+$height: 50px;
+
+header {
+	height: $height;
+	line-height: $height;
+	padding: 0 15px;
+	border-bottom: 1px solid gray;
+}
+
+footer {
+	height: $height;
+	line-height: $height;
+	padding: 0 15px;
+	border-top: 1px solid #aaa;
+}

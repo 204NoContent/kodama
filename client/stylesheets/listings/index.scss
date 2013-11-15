@@ -1,0 +1,28 @@
+body.listings-index {
+
+	section {
+		padding: 15px;
+
+		ul {
+			list-style: none;
+
+			li {
+				padding: 10px;
+				border-bottom: 1px solid #f0f0f0;
+			}
+		}
+
+		.listings-list-pagination {
+			margin-top: 20px;
+			br.pagination-clear { clear: both }
+
+			div {
+				float: left;
+
+				&.pagination-pages {
+					padding: 0 10px;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,30 @@
+body.pages-trains {
+	section {
+		padding: 15px;
+
+		ul {
+			list-style: none;
+
+			li {
+				padding: 10px;
+				border-bottom: 1px solid #f0f0f0;
+
+				span {
+					font-weight: bold;
+				}
+
+				div {
+					padding: 10px;
+				}
+			}
+		}
+
+		div.kodama-background-image {
+			width: 150px;
+			height: 150px;
+			background-image:url('<%= imageUrl("kodama.jpg") %>');
+			background-size:100% 100%;
+			background-repeat:no-repeat;
+		}
+	}
+}

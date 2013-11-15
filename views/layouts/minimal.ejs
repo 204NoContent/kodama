@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset='utf-8'>
+        <meta name='description' content='Commercial Real Estate Search'>
+        <title><%= title %></title>
+
+        <%- scripts %>
+        <%- stylesheets %>
+
+        <% if ('production' === process.env.NODE_ENV) { %>
+            <% stylesheet(minifiedCss) %>
+            <% script(minifiedJs) %>
+        <% } else { %>
+            <% stylesheet('/stylesheets/system/application.css') %>
+            <% _.each(js_files, function (js_file) { %>
+                <% script('/javascripts/' + js_file) %>
+            <% }) %>
+        <% } %>
+    </head>
+    <body class="<%= controller + '-'+ action %>" data-response="<%= typeof data != 'undefined' ? JSON.stringify(data) : null %>" id='data'></body>
+</html>

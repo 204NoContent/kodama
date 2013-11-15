@@ -1,0 +1,53 @@
+[{
+    "name": "Asama",
+    "operator": "JR East",
+    "endpoints": "Toyko - Nagano"
+}, {
+    "name": "Hayate",
+    "operator": "JR East",
+    "endpoints": "Tokyo - Hachinohe"
+}, {
+    "name": "Hikari",
+    "operator": "JR Central / JR West",
+    "endpoints": "Tokyo - Okayama"
+}, {
+    "name": "Hikari Rail Star",
+    "operator": "JR West",
+    "endpoints": "Shin-Osaka - Hakata"
+}, {
+    "name": "Kodama",
+    "operator": "JR Central / JR West",
+    "endpoints": "Tokyo - Shin-Osaka, and Shin-Osaka - Hakata"
+}, {
+    "name": "Komachi",
+    "operator": "JR East",
+    "endpoints": "Tokyo - Akita"
+}, {
+    "name": "Nasuno",
+    "operator": "JR East",
+    "endpoints": "Tokyo - Koriyama"
+}, {
+    "name": "Nozomi",
+    "operator": "JR Central / JR West",
+    "endpoints": "Tokyo - Shin-Osaka, Hakata"
+}, {
+    "name": "Tanigawa",
+    "operator": "JR East",
+    "endpoints": "Tokyo - Echigo-Yuzawa"
+}, {
+    "name": "Toki",
+    "operator": "JR East",
+    "endpoints": "Tokyo - Niigata"
+}, {
+    "name": "Tsubame",
+    "operator": "JR Kyushu",
+    "endpoints": "Shin-Yatsushiro - Kagoshima-Chuo"
+}, {
+    "name": "Tsubasa",
+    "operator": "JR East",
+    "endpoints": "Tokyo - Yamagata, Shinjo"
+}, {
+    "name": "Yamabiko",
+    "operator": "JR East",
+    "endpoints": "Tokyo - Morioka"
+}]

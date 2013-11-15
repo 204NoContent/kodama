@@ -1,0 +1,19 @@
+{
+  "name": "kodama",
+  "description": "An Express framework and streaming reverse proxy for Backbone",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "~3.3.8",
+    "ejs": "~0.8.4",
+    "underscore": "~1.5.2",
+    "sanitizer": "~0.0.15",
+    "request": "~2.27.0",
+    "node-sass": "~0.6.6",
+    "graceful-fs": "~2.0.1",
+    "node-minify": "~0.8.1",
+    "wrench": "~1.5.1",
+    "mkdirp": "~0.3.5",
+    "ejs-locals": "~1.0.2",
+    "nodeunit": "~0.8.1"
+  }
+}

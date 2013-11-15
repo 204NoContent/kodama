@@ -1,0 +1,32 @@
+body.pages-index {
+
+	section {
+		padding: 15px;
+
+		img {
+			width: 220px;
+		}
+
+		h3 {
+			margin: 10px 0;
+		}
+
+		ul {
+			list-style: none;
+
+			li {
+				color: green;
+			}
+		}
+		div {
+			margin-top: 15px;
+		}
+
+		.dynamic-content {
+			img {
+				width: auto;
+				margin-top: 10px;
+			}
+		}
+	}
+}

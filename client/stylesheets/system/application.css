@@ -1,0 +1,159 @@
+/* Css compiled from your scss. */
+/* Do not change this file directly */
+/* `XHTML, HTML4, HTML5 Reset
+----------------------------------------------------------------------------------------------------*/
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, dialog, div, dl, dt, em, embed, fieldset, figcaption, figure, font, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, hr, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, meter, nav, object, ol, output, p, pre, progress, q, rp, rt, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video, xmp {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 100%; }
+
+html, body {
+  height: 100%; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  /*
+  Override the default (display: inline) for
+  browsers that do not recognize HTML5 tags.
+
+  IE8 (and lower) requires a shiv:
+  http://ejohn.org/blog/html5-shiv
+*/
+  display: block; }
+
+b, strong {
+  /*
+  Makes browsers agree.
+  IE + Opera = font-weight: bold.
+  Gecko + WebKit = font-weight: bolder.
+*/
+  font-weight: bold; }
+
+img {
+  color: transparent;
+  font-size: 0;
+  vertical-align: middle;
+  /*
+  For IE.
+  http://css-tricks.com/ie-fix-bicubic-scaling-for-images
+*/
+  -ms-interpolation-mode: bicubic; }
+
+li {
+  /*
+  For IE6 + IE7.
+*/
+  display: list-item; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+th, td, caption {
+  font-weight: normal;
+  vertical-align: top;
+  text-align: left; }
+
+q {
+  quotes: none; }
+
+q:before, q:after {
+  content: '';
+  content: none; }
+
+sub, sup, small {
+  font-size: 75%; }
+
+sub, sup {
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sub {
+  bottom: -0.25em; }
+
+sup {
+  top: -0.5em; }
+
+svg {
+  /*
+  For IE9.
+*/
+  overflow: hidden; }
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+header {
+  height: 50px;
+  line-height: 50px;
+  padding: 0 15px;
+  border-bottom: 1px solid gray; }
+
+footer {
+  height: 50px;
+  line-height: 50px;
+  padding: 0 15px;
+  border-top: 1px solid #aaaaaa; }
+
+body.pages-index section {
+  padding: 15px; }
+  body.pages-index section img {
+    width: 220px; }
+  body.pages-index section h3 {
+    margin: 10px 0; }
+  body.pages-index section ul {
+    list-style: none; }
+    body.pages-index section ul li {
+      color: green; }
+  body.pages-index section div {
+    margin-top: 15px; }
+  body.pages-index section .dynamic-content img {
+    width: auto;
+    margin-top: 10px; }
+
+body.pages-about section {
+  padding: 15px; }
+  body.pages-about section img {
+    padding: 10px 0; }
+
+body.pages-trains section {
+  padding: 15px; }
+  body.pages-trains section ul {
+    list-style: none; }
+    body.pages-trains section ul li {
+      padding: 10px;
+      border-bottom: 1px solid #f0f0f0; }
+      body.pages-trains section ul li span {
+        font-weight: bold; }
+      body.pages-trains section ul li div {
+        padding: 10px; }
+  body.pages-trains section div.kodama-background-image {
+    width: 150px;
+    height: 150px;
+    background-image: url('/images/kodama.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat; }
+
+body.listings-show section {
+  padding: 15px; }
+  body.listings-show section div {
+    margin-top: 10px; }
+
+body.listings-index section {
+  padding: 15px; }
+  body.listings-index section ul {
+    list-style: none; }
+    body.listings-index section ul li {
+      padding: 10px;
+      border-bottom: 1px solid #f0f0f0; }
+  body.listings-index section .listings-list-pagination {
+    margin-top: 20px; }
+    body.listings-index section .listings-list-pagination br.pagination-clear {
+      clear: both; }
+    body.listings-index section .listings-list-pagination div {
+      float: left; }
+      body.listings-index section .listings-list-pagination div.pagination-pages {
+        padding: 0 10px; }

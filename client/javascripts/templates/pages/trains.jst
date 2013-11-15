@@ -1,0 +1,13 @@
+<h3>Named Trains of Japan</h3>
+
+<ul class='trians-list'>
+	[[ _.each(trains, function(train) { ]]
+		<li>
+			<div><span>Train name:</span> [[= train.name ]]</div>
+			<div><span>Operator:</span> [[= train.operator ]]</div>
+			<div><span>Endpoints:</span> [[= train.endpoints ]]</div>
+		</li>
+	[[ }) ]]
+</ul>
+
+<div class='kodama-background-image'></div>
